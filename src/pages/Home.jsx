@@ -375,7 +375,7 @@ function App() {
         id="service"
       >
         <div className="absolute top-[30%]  w-full min-h-screen overflow-hidden rotate-12">
-          <img className="object-contain" src="/src/assets/waves2.svg" alt="" srcset="" />
+          <img className="object-contain" src="/src/assets/waves2.svg" alt="" />
         </div>
         <div className="w-full flex justify-center">
           <span className="md:text-4xl  text-2xl font-Bangers text-primary">
