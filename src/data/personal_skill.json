@@ -1,0 +1,23 @@
+[
+  {
+    "skill_value": 75,
+    "skill_name": "leadership",
+    "created_at": "2023-01-19T04:59:16.242434+00:00",
+    "updated_at": "2023-01-19T04:59:16.242434+00:00",
+    "id": "8033e5bd-fdb6-46f4-9b98-647cc278d47f"
+  },
+  {
+    "skill_value": 80,
+    "skill_name": "communication",
+    "created_at": "2023-01-19T04:59:28.49435+00:00",
+    "updated_at": "2023-01-19T04:59:28.49435+00:00",
+    "id": "9b5c4d38-cc78-4723-8662-a8b9d423911f"
+  },
+  {
+    "skill_value": 65,
+    "skill_name": "creativity",
+    "created_at": "2023-01-19T04:59:43.875708+00:00",
+    "updated_at": "2023-01-19T04:59:43.875708+00:00",
+    "id": "eb8fc11a-b1bb-4f3a-808b-91c371bbffbd"
+  }
+]

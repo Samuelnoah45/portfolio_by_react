@@ -1,0 +1,158 @@
+.ff {
+  background-size: cover;
+  @apply md:bg-[#001730];
+}
+
+.softSkill {
+  background-image: linear-gradient(#e3e6eab7, #c7ccd2b0),
+    url(../assets/image/top-view-business-team-workspace.jpg);
+  background-attachment: fixed;
+}
+
+.we {
+  color: #06192e;
+}
+.social div {
+  @apply hover:bg-white hover:text-primary  text-white  w-12 h-12 mx-6 md:flex hidden justify-center items-center border-white border-2 rounded-full;
+}
+.card {
+  /* opacity: 0; */
+}
+.animatel {
+  visibility: visible;
+  animation-duration: 2.3s;
+  animation-name: bounceInUp;
+  display: block;
+}
+.animateu {
+  visibility: visible;
+  animation-duration: 1.2s;
+  animation-name: bounceInLeft;
+  /* display: block; */
+}
+
+.animated {
+  visibility: visible;
+  animation-duration: 2.3s;
+  animation-name: fadeInRight;
+  display: block;
+}
+
+.animater {
+  visibility: visible;
+  animation-duration: 2.3s;
+  animation-name: bounceInRight;
+  display: block;
+}
+.tag {
+  clip-path: polygon(100% 1%, 100% 50%, 100% 100%, 20% 100%, 0 51%, 20% 0);
+  /* @apply text-white flex justify-center font-Bangers text-lg; */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000;
+  @apply bg-primary;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  @apply bg-secondary;
+}
+
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-roller div {
+  animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  transform-origin: 40px 40px;
+}
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+.lds-roller div:nth-child(1) {
+  animation-delay: -0.036s;
+}
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+.lds-roller div:nth-child(2) {
+  animation-delay: -0.072s;
+}
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+.lds-roller div:nth-child(3) {
+  animation-delay: -0.108s;
+}
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+.lds-roller div:nth-child(4) {
+  animation-delay: -0.144s;
+}
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+.lds-roller div:nth-child(5) {
+  animation-delay: -0.18s;
+}
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+.lds-roller div:nth-child(6) {
+  animation-delay: -0.216s;
+}
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+.lds-roller div:nth-child(7) {
+  animation-delay: -0.252s;
+}
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+.lds-roller div:nth-child(8) {
+  animation-delay: -0.288s;
+}
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+@keyframes lds-roller {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

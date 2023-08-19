@@ -1,0 +1,71 @@
+{
+  personaLInfo {
+    first_name
+    last_name
+    email
+    github
+    facebook
+    linked_in
+    instagram
+    telegram
+    phone
+  }
+  back: technicalSkill(where: {tech_categroy: {_eq: "back end"}}) {
+    tech_name
+  }
+  front: technicalSkill(where: {tech_categroy: {_eq: "front end"}}) {
+    tech_name
+  }
+  other: technicalSkill(where: {tech_categroy: {_eq: "other"}}) {
+    tech_name
+  }
+    UI: technicalSkill(where: {tech_categroy: {_eq: "UI"}}) {
+    tech_name
+  }
+  personal_skill {
+    skill_name
+    skill_value
+  }
+  projects {
+    title
+    link
+    image
+    description
+    projectTechs{
+     technicalSkill{
+      tech_name
+    }
+    }
+  }
+ avbackend: technicalSkill_aggregate(where: {tech_categroy: {_eq: "back end"}}){
+    aggregate{
+      avg{
+        skill_value
+      }
+    }
+  }
+   avother:technicalSkill_aggregate(where: {tech_categroy: {_eq: "other"}}){
+    aggregate{
+      avg{
+        skill_value
+      }
+    }
+  }
+   avfrontend:technicalSkill_aggregate(where: {tech_categroy: {_eq: "front end"}}){
+    aggregate{
+      avg{
+        skill_value
+      }
+    }
+  }
+    avUI:technicalSkill_aggregate(where: {tech_categroy: {_eq: "UI"}}){
+    aggregate{
+      avg{
+        skill_value
+      }
+ 
+    }
+  }
+    
+    
+}
